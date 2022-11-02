@@ -1,0 +1,309 @@
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+
+
+}
+.intro{
+    max-height: 96.5vh;
+
+    overflow: hidden;
+    position: relative;
+    /*background: url("images/image_1.png") no-repeat;*/
+    /*background-size: cover ;*/
+    /*top: 0;*/
+    /*left: 0;*/
+
+}
+.intro:after {
+    content: "";
+    display:block;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:1;
+
+}
+.video_class{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover
+}
+.intro_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #ff858e;
+    text-align: center;
+    font-size: xx-large;
+
+}
+.container{
+    border: 20px solid mintcream;
+    justify-content: center;
+    flex-direction: inherit;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.select {
+     width: 100px;
+}
+
+
+#username{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Times New Roman";
+    color:#ff858e;
+}
+#phonenumber{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Times New Roman";
+    color:#ff858e;
+
+}
+#datetime{
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Times New Roman";
+    color:#ff858e;
+
+}
+
+#submit{
+    height: 70px;
+    width: 300px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Times New Roman";
+    background-color:#ff858e;
+    color: white;
+}
+#Mainref{
+    margin-left: 200px;
+    margin-top: 55px;
+    position: relative;
+    cursor:pointer;
+    font-family: "Times New Roman";
+    line-height: 1;
+    color:#ff858e;
+    z-index: 2;
+    text-decoration: none;
+    float: left;/* иначе бы не работал margin-top*/
+    font-size: 22px;
+
+}
+#Mainref:after{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #ff858e; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+#Mainref:hover:after,
+#Mainref:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+
+}
+
+#Servicesref{
+    margin-left: 40px;
+    margin-top: 55px;
+    position: relative;
+    cursor:pointer;
+    font-family: "Times New Roman";
+    line-height: 1;
+    color:#ff858e;
+    z-index: 2;
+    text-decoration: none;
+    float: left;/* иначе бы не работал margin-top*/
+    font-size: 22px;
+
+}
+#Servicesref:after{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #ff858e; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+#Servicesref:hover:after,
+#Servicesref:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
+#Priceref{
+    margin-left: 40px;
+    margin-top: 55px;
+    position: relative;
+    cursor:pointer;
+    font-family: "Times New Roman";
+    line-height: 1;
+    color:#ff858e;
+    z-index: 2;
+    text-decoration: none;
+    float: left;/* иначе бы не работал margin-top*/
+    font-size: 22px;
+
+}
+#Priceref:after{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #ff858e; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+#Priceref:hover:after,
+#Priceref:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+#WorksPhotoref{
+    margin-left: 40px;
+    margin-top: 55px;
+    position: relative;
+    cursor:pointer;
+    font-family: "Times New Roman";
+    line-height: 1;
+    color:#ff858e;
+    z-index: 2;
+    text-decoration: none;
+    float: left;/* иначе бы не работал margin-top*/
+    font-size: 22px;
+
+}
+#WorksPhotoref:after{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #ff858e; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+#WorksPhotoref:hover:after,
+#WorksPhotoref:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+
+#Contactsref{
+    margin-left: 40px;
+    margin-top: 55px;
+    position: relative;
+    cursor:pointer;
+    font-family: "Times New Roman";
+    line-height: 1;
+    color:#ff858e;
+    z-index: 2;
+    text-decoration: none;
+    float: left;/* иначе бы не работал margin-top*/
+    font-size: 22px;
+
+}
+#Contactsref:after{
+    display: block;
+    position: absolute;
+    color: white;
+    left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;/*задаём длинну линии до наведения курсора*/
+    height: 2px; /*задаём ширину линии*/
+    background-color: #ff858e; /*задаём цвет линии*/
+    content: "";
+    transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+#Contactsref:hover:after,
+#Contactsref:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+#Telegram{
+
+    height:40px;
+    width: 40px;
+    float: left;/* иначе бы не работал margin-top*/
+    margin-left: 80px;
+    margin-top: 45px;
+    position: relative;
+
+    z-index: 2;
+}
+#Instagram{
+
+    height:40px;
+    width: 40px;
+    float: left;/* иначе бы не работал margin-top*/
+    margin-left: 20px;
+    margin-top: 45px;
+    position: relative;
+
+    z-index: 2;
+}
+#Oksana{
+    height:140px;
+    width: 140px;
+    float: left;/* иначе бы не работал margin-top*/
+    left: 20px;
+    top: 5px;
+    position: absolute;
+
+    z-index: 2;
+}
+.Location{
+    /*margin: 0;*/
+    font-size: 22px;
+    color: #ff858e;
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 20px;
+    /*float: left;!* иначе бы не работал margin-top*!*/
+}
+.Map{
+    top: 450px;
+    left: 0px;
+
+    position: absolute;
+    z-index: 2;
+
+}
+
