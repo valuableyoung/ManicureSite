@@ -61,37 +61,33 @@
     padding-right: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-
+    font-family: "Arial", Sans-serif;
+    font-size: 30px;
 }
-
-.select {
-     width: 100px;
-}
-
 
 #username{
     height: 40px;
     width: 300px;
-    font-size: 30px;
     text-align: center;
-    font-family: "Times New Roman";
+    font-size: 30px;
+    font-family: "Arial", Sans-serif;
     color:#ff858e;
 }
 #phonenumber{
     height: 40px;
     width: 300px;
-    font-size: 30px;
     text-align: center;
-    font-family: "Times New Roman";
+    font-size: 30px;
+    font-family: "Arial", Sans-serif;
     color:#ff858e;
 
 }
 #datetime{
-    height: 40px;
+    height: 45px;
     width: 300px;
-    font-size: 30px;
     text-align: center;
-    font-family: "Times New Roman";
+    font-size: 30px;
+    font-family: "Arial", Sans-serif;
     color:#ff858e;
 
 }
@@ -101,22 +97,23 @@
     width: 300px;
     font-size: xx-large;
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     background-color:#ff858e;
     color: white;
 }
 #Mainref{
+    float: left;/* иначе бы не работал margin-top*/
     margin-left: 200px;
     margin-top: 55px;
     position: relative;
     cursor:pointer;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     line-height: 1;
     color:#ff858e;
-    z-index: 2;
     text-decoration: none;
-    float: left;/* иначе бы не работал margin-top*/
-    font-size: 22px;
+    font-size: 16px;
+
+    z-index: 2;
 
 }
 #Mainref:after{
@@ -141,13 +138,13 @@
     margin-top: 55px;
     position: relative;
     cursor:pointer;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     line-height: 1;
     color:#ff858e;
     z-index: 2;
     text-decoration: none;
     float: left;/* иначе бы не работал margin-top*/
-    font-size: 22px;
+    font-size: 16px;
 
 }
 #Servicesref:after{
@@ -172,13 +169,13 @@
     margin-top: 55px;
     position: relative;
     cursor:pointer;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     line-height: 1;
     color:#ff858e;
     z-index: 2;
     text-decoration: none;
     float: left;/* иначе бы не работал margin-top*/
-    font-size: 22px;
+    font-size: 16px;
 
 }
 #Priceref:after{
@@ -201,13 +198,13 @@
     margin-top: 55px;
     position: relative;
     cursor:pointer;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     line-height: 1;
     color:#ff858e;
     z-index: 2;
     text-decoration: none;
     float: left;/* иначе бы не работал margin-top*/
-    font-size: 22px;
+    font-size: 16px;
 
 }
 #WorksPhotoref:after{
@@ -232,13 +229,13 @@
     margin-top: 55px;
     position: relative;
     cursor:pointer;
-    font-family: "Times New Roman";
+    font-family: "Arial", Sans-serif;
     line-height: 1;
     color:#ff858e;
     z-index: 2;
     text-decoration: none;
     float: left;/* иначе бы не работал margin-top*/
-    font-size: 22px;
+    font-size: 16px;
 
 }
 #Contactsref:after{
@@ -261,7 +258,7 @@
     height:40px;
     width: 40px;
     float: left;/* иначе бы не работал margin-top*/
-    margin-left: 80px;
+    margin-left: 800px;
     margin-top: 45px;
     position: relative;
 
@@ -290,7 +287,7 @@
 }
 .Location{
     /*margin: 0;*/
-    font-size: 22px;
+    font-size: 16px;
     color: #ff858e;
     position: absolute;
     z-index: 2;
@@ -304,6 +301,34 @@
 
     position: absolute;
     z-index: 2;
+}
+#telephone{
 
+    position: relative;
+    float: left;
+    margin-top: 32.5px;
+    margin-left: 20px;
+    border: 1px solid #ff858e;
+    border-radius: 3px;
+    opacity: 100;
+    color: #ff858e;
+    font-family: "Arial", Sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    min-width: 150px;
+    padding: 20px 30px;
+
+    z-index: 2;
+}
+#Telephoneimg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    color: #ff858e;
+
+
+    position: relative;
+
+    z-index: 2;
 }
 
