@@ -302,10 +302,10 @@
     position: absolute;
     z-index: 2;
 }
-.calltel{
+.telephone{
     display: flex;
 }
-.calltel .telephone .number{
+.telephone .number{
 
     position: relative;
     float: left;
@@ -323,12 +323,12 @@
 
     z-index: 2;
 }
-.calltel:hover .telephone .number{
+.telephone:hover .number{
     background-color: #ff858e; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
     color: white;
 
 }
-.calltel .telephone  .call  {
+ .telephone  .call  {
 
     display: flex;
     position: relative;
@@ -346,14 +346,14 @@
     /*object-fit: cover;*/
     z-index: 2;
 }
-.calltel .telephone .call:nth-of-type(2) {
+.telephone .call:nth-of-type(2) {
     display: none;
 }
-.calltel:hover .telephone .call:nth-of-type(1) {
+.telephone:hover  .call:nth-of-type(1) {
     display: none;
 }
 
-.calltel:hover .telephone .call:nth-of-type(2) {
+.telephone:hover  .call:nth-of-type(2) {
     display: block;
 }
 
