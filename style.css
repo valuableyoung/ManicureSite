@@ -258,7 +258,7 @@
     height:40px;
     width: 40px;
     float: left;/* иначе бы не работал margin-top*/
-    margin-left: 800px;
+    margin-left: 750px;
     margin-top: 45px;
     position: relative;
 
@@ -302,12 +302,15 @@
     position: absolute;
     z-index: 2;
 }
-#telephone{
+.calltel{
+    display: flex;
+}
+.calltel .telephone .number{
 
     position: relative;
     float: left;
     margin-top: 32.5px;
-    margin-left: 20px;
+    margin-left: 80px;
     border: 1px solid #ff858e;
     border-radius: 3px;
     opacity: 100;
@@ -315,20 +318,62 @@
     font-family: "Arial", Sans-serif;
     text-decoration: none;
     font-size: 17px;
-    min-width: 150px;
     padding: 20px 30px;
+    transition: 0.3s;
 
     z-index: 2;
 }
-#Telephoneimg{
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-    color: #ff858e;
+.calltel:hover .telephone .number{
+    background-color: #ff858e; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    color: white;
 
+}
+.calltel .telephone  .call  {
 
+    display: flex;
     position: relative;
+    margin-top: -20px;
+    margin-left: 160px;
+    /*display:block;*/
 
+
+    /*margin-right: 10px;*/
+    /*top:0px;*/
+    /*left:0px;*/
+    /*padding: 0;*/
+
+
+    /*object-fit: cover;*/
     z-index: 2;
 }
+.calltel .telephone .call:nth-of-type(2) {
+    display: none;
+}
+.calltel:hover .telephone .call:nth-of-type(1) {
+    display: none;
+}
+
+.calltel:hover .telephone .call:nth-of-type(2) {
+    display: block;
+}
+
+/* .call_img:hover{*/
+/*     background-image: url(images/Telephone_white.png);*/
+/*     z-index: 2;*/
+
+/* }*/
+/*.call_img:after{*/
+/*    opacity: 0;*/
+/*    background-image: url(images/Telephone.png);*/
+/*}*/
+
+
+
+/*a.rollover:hover {*/
+/*    background: url(images/Telephone_white.png) no-repeat ; !* Путь к файлу с заменяемым рисунком  *!*/
+
+/*    z-index: 2;*/
+/*}*/
+
+
 
